@@ -1,0 +1,208 @@
+/* WebStudio: черный=000000 100% , синий=2196F3 100% */
+/* Навигация: черный=212121 100% , синий=2196F3 100% */
+/* Герой: Заголовок текст белый=FFFFFF 100%, фон т.серый=2F303A 100%*/
+/* Герой: Кнопка текст белый=FFFFFF 100%, фон синий=2196F3 100% */
+/* Преимущества: Заголовок черный=212121 100%, текст серый=757575 100% */
+/* Преимущества + Чем зан: фон св.св.серый=E5E5E5 100% */
+/* Чем занимаемся: Заголовок черный=212121 100% */
+/* Наша команда: Заголовок черный=212121 100%, текст серый=757575 100%*/
+/* Наша команда: фон секции св.серый=F5F4FA 100% */
+/* Футер: физ.адрес текст белый=FFFFFF 100%, email+тел=белый=FFFFFF 60% */
+/* Футер: фон т.серый=2F303A 100%*/
+
+:root {
+    --primary-text-color: #757575;
+    --logo-primary-text-color: #2196f3;
+    --logo-secondary-text-color: #000000;
+    --logo-footer-text-color: #ffffff;
+    --title-text-color: #212121;
+    --hero-title-text-color: #ffffff;
+    --accent-color: #2196f3;
+    --background-color: #e5e5e5;
+    --header-background-color: #ffffff;
+    --section-background-color: #ffffff;
+    --section-alt-background-color: #f5f4fa;
+    --hero-footer-background-color: #2f303a;
+    --button-text-accent: #ffffff;
+    --button-text-base: #212121;
+    --button-background-color: #f5f4fa;
+    --footer-text-color: #ffffff;
+    --item-boder-color: #eeeeee;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+ul {
+    list-style: none;
+}
+
+.page-header {
+    font-weight: 500;
+    line-height: 1.17;
+    background-color: var(--header-background-color);
+}
+
+/* Лого */
+.logo {
+    color: var(--logo-primary-text-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+}
+.logo-studio {
+    color: var(--title-text-color);
+}
+
+/* Навигация меню страницы */
+.menu-nav {
+    text-decoration: none;
+}
+
+.menu-nav .link {
+    color: var(--title-text-color);
+    text-decoration: none;
+}
+.menu-nav .link:hover,
+.menu-nav .link:focus {
+    color: var(--accent-color);
+}
+
+/* Контакты шапки страницы */
+.page-header .contacts-nav {
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+.page-header .contacts-nav:hover .contacts-nav:focus {
+    color: var(--accent-color);
+}
+
+/* Основной раздел */
+
+/*Герой*/
+.hero {
+    background-color: var(--hero-footer-background-color);
+}
+.hero-title {
+    color: var(--hero-title-text-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    text-transform: uppercase;
+}
+.hero-button {
+    color: var(--button-text-accent);
+    background-color: var(--accent-color);
+    font-weight: 700;
+    line-height: 1.88;
+    text-align: center;
+}
+
+/* Основные секции*/
+.section {
+    background-color: var(--section-background-color);
+}
+
+/*Преимущества*/
+.feature-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    line-height: 1.17;
+    text-transform: uppercase;
+}
+
+/* Чем мы занимаемся */
+.section-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+/* Наша команда */
+.section-alternative {
+    background-color: var(--section-alt-background-color);
+}
+.team-item {
+    background-color: var(--section-background-color);
+}
+.team-title {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.17;
+    text-align: center;
+}
+.team-position {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+/* Футер */
+.footer {
+    background-color: var(--hero-footer-background-color);
+}
+.logo-studio-footer {
+    color: var(--logo-footer-text-color);
+}
+.address {
+    color: var(--footer-text-color);
+    font-style: normal;
+    text-decoration: none;
+}
+.mail-tel {
+    color: var(--footer-text-color);
+    font-style: normal;
+    text-decoration: none;
+    opacity: 0.6;
+}
+.address:hover,
+.address:focus,
+.mail-tel:hover,
+.mail-tel:focus {
+    outline: 2px solid var(--accent-color);
+}
+
+/* П О Р Т Ф О Л И О */
+.filter-button {
+    color: var(--button-text-base);
+    background-color: var(--button-background-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.62;
+    text-align: center;
+}
+.filter-button:hover,
+.filter-button:focus {
+    color: var(--button-text-accent);
+    background-color: var(--accent-color);
+}
+
+.project-title {
+    color: var(--title-text-color);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+}
+
+.project-type {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.87;
+}
+.project-item {
+    background-color: var(--item--background-color);
+    border: 1px solid var(--item-boder-color);
+}
