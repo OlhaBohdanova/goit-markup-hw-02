@@ -108,6 +108,7 @@ ul {
     font-weight: 700;
     line-height: 1.88;
     text-align: center;
+    cursor: pointer;
 }
 
 /* Основные секции*/
@@ -186,6 +187,7 @@ ul {
     font-weight: 500;
     line-height: 1.62;
     text-align: center;
+    cursor: pointer;
 }
 .filter-button:hover,
 .filter-button:focus {
