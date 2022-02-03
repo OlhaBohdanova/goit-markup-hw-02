@@ -75,6 +75,9 @@ ul {
 .menu-nav .link:focus {
     color: var(--accent-color);
 }
+.menu-nav .link.current {
+    color: var(--accent-color);
+}
 
 /* Контакты шапки страницы */
 .page-header .contacts-nav {
