@@ -125,8 +125,9 @@ ul {
 /*Преимущества*/
 .feature-title {
     color: var(--title-text-color);
+    font-size: 14px;
     font-weight: 700;
-    line-height: 1.17;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
